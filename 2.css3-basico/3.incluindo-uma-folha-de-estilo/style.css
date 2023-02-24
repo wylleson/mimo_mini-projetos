@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --body-color: #212338;
+    --win-top-color: #4D4D87;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--body-color);
+}
+#window {
+    background-color: rgb(81, 76, 140);
+    width: 25rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+#wtop {
+    background-color: var(--win-top-color);
+    border-radius: .5rem .5rem 0 0;
+    width: 100%;
+    height: 5%;
+    border: 2px solid var(--win-top-color);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#mini-balls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 14%;
+    margin-left: .5rem;
+}
+.mini-ball {
+    background-color: rgba(0, 0, 0, 0.25);
+    width: .85rem;
+    height: .85rem;
+    border-radius: 50%;
+}
+#wbody {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 .5rem .5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 2px solid var(--win-top-color);
+}
+main {
+    width: 85%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.gradient-color {
+    color: rgb(64, 64, 108);
+}
+#icon {
+    font-size: 2.25rem;
+}
+#logo h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 2.75rem;
+}
+#perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .5rem;
+}
+#perfil > img {
+    width: 85px;
+    height: 85px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgb(150, 150, 195);
+}
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+#username {
+    font-size: 1.25rem;
+    font-weight: 550;
+    color: rgb(0, 0, 0);
+}
+#verified-icon {
+    color: rgba(0, 0, 255, 0.7);
+}
+#perfil > p {
+    text-align: center;
+}
+#album {
+    background-color: rgb(212, 212, 255);
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .225rem .1rem;
+}
+#album > img {
+    width: 64px;
+    height: 64px;
+    border-radius: .25rem;
+    margin: .1rem;
+    background-color: rgba(128, 128, 128, 0.2);
+}
