@@ -3,7 +3,7 @@
  <h2>Índice:</h2>
   <h3>2. CSS3 Básico</h3>
    <ul>
-    <li><a href="https://wylleson.github.io/mimo_mini-projetos/2.css3-basico/3.incluindo-uma-folha-de-estilo/">3. Incluindo uma folha de estilo</a></li>
+    <li><a target="_blank" href="https://wylleson.github.io/mimo_mini-projetos/2.css3-basico/3.incluindo-uma-folha-de-estilo/">3. Incluindo uma folha de estilo</a></li>
     <li><a href="https://wylleson.github.io/mimo_mini-projetos/2.css3-basico/2.usando-marcas-de-estilo/">2. Usando marcas de estilo</a></li>
     <li><a href="https://wylleson.github.io/mimo_mini-projetos/2.css3-basico/1.estilizando-com-css/">1. Estilizando com CSS3</a></li>
    </ul>
